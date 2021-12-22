@@ -1,0 +1,49 @@
+a {
+    color: rgba(251, 252, 204, 0.863);
+}
+
+.left {
+    margin-left: 1rem !important;
+}
+
+.right {
+    margin-right: 1rem !important;
+}
+.root {
+    color: rgba(251, 252, 204, 0.863);
+    /* margin: 0; */
+}
+
+
+div.grid--container {
+    
+}
+
+div.grid--nested >* {
+
+    background-color:rgba(1, 46, 65, 0.199);
+}
+
+.accord {
+    padding-right: 500px;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.new-plans {
+    width: 100%;
+}
+
+.footer {
+    margin: 0 1rem;
+    color:rgba(251, 252, 204, 0.863);
+    height: 20vh;
+    background: rgba(10, 6, 6, 0.849) !important;
+    /* background-color: rgba(240, 248, 255, 0) !important; */
+    flex: 0 1 auto;
+    border-style: none;
+}

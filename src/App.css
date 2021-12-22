@@ -1,0 +1,48 @@
+/* .App {
+  padding-bottom: 1rem;
+  min-height: 100%;
+  border: 1rem solid rgba(10, 6, 6, 1);
+  background-image: linear-gradient(
+    to right,
+    #b7094c,
+    #a01a58,
+    #892b64,
+    #723c70,
+    #5c4d7d,
+    #455e89,
+    #2e6f95,
+    #1780a1,
+    #0091ad
+  );
+} */
+
+.App {
+  padding-bottom: 1rem;
+  min-height: 100%;
+  border: 1rem solid rgba(10, 6, 6, 1);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100vh;
+    min-height: 100vh;
+  }
+}
