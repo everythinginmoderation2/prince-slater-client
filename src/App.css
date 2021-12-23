@@ -1,7 +1,5 @@
 .App {
-  /* padding-bottom: 1rem; */
   min-height: 100%;
-  /* border-bottom: 1rem ridge rgba(10, 6, 6, 1); */
   border-right: 0.5rem ridge rgba(10, 6, 6, 1);
   border-left: 0.2rem ridge rgba(10, 6, 6, 1);
   background: linear-gradient(-45deg, #031b44, #020f27, #032a44, #031b44);
