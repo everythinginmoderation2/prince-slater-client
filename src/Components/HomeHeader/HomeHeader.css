@@ -1,11 +1,18 @@
 nav.navbar {
   padding: 0 0.5rem;
   display: flex;
-  background: rgba(61, 2, 61, 0.7) !important;
+  background: rgba(2, 15, 39, 1);
 }
 
 
 .header {
+  margin: 0;
+  border-bottom: 1rem solid;
+  background-color: rgba(251, 252, 204, 0.7);
+  border-bottom-left-radius: 20%;
+}
+
+h1 {
   margin: 0;
 }
 
@@ -15,9 +22,10 @@ h3 {
 }
 
 h4 {
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.3rem;
   text-indent: 3rem;
   text-align: end;
+  margin-bottom: 0;
 }
 
 
@@ -32,7 +40,7 @@ h4 {
 }
 
 .next-row {
-  background: rgba(10, 6, 6, 0.849);
+  background: rgba(10, 6, 6, 1);
   padding: 0 1rem;
 }
 

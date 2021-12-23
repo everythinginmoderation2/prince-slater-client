@@ -7,12 +7,12 @@ const HomeHeader = () => {
         <div>
             <header className="header">
                 <nav className="navbar">
-                    <div className="left-end--nav"><h1><Link to="/about" style={{margin: 0, padding: 0}}>Welcome</Link></h1></div>
+                    <div className="left-end--nav"><Link to="/" style={{margin: 0, padding: 0, fontSize: '2rem'}}><h1>Welcome</h1></Link></div>
                     <div className="right-end--nav">
-                        <div><Link to="/">Proper Slang</Link></div>
+                        <div><Link to="/">Home</Link></div>
+                        <div><a href="./booking" target="blank" alt="">Booking</a></div>
                         <div><a href="./here" target="blank" alt="">Maitre Hookz</a></div>
-                        <div><a href="./here" target="blank" alt="">Cuoolingo</a></div>
-                        <div><a href="./here" target="blank" alt="">Partners</a></div>
+                        <div><a href="./partners" target="blank" alt="">Partners</a></div>
                     </div>
                 </nav>
                 <div className="next-row">
