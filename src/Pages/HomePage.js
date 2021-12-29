@@ -13,7 +13,7 @@ const HomePage = () => {
                 <div className='section-header-padding-message'><h1>In Stores Now</h1></div>
             </section>
             <section className='section-body'>
-                <div className="banner"></div>
+                <div className="banner"><img src="https://github.com/everythinginmoderation2/prince-slater-client/blob/16f6a5e8361d0def4d5fec9a172c0961df6e4dce/src/Images/hand_and_guitar.jpeg" alt=""></img></div>
                 <div className="div-body">
                     <div className="blue"></div>
                     <div className="green"></div>

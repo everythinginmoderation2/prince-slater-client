@@ -75,7 +75,73 @@ h1 {
 .banner {
   height: 80vh;
   width: 100%;
+  /* background-image: url(/src/Images/arms_back.jpeg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
   background-color: rgb(214, 206, 231);
+  -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-in-out infinite alternate both;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    box-shadow: 4px -20px 10px rgba(245, 245, 245, 0.7);
+  }
+
+  25% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    box-shadow: 4px -20px 50px rgba(245, 245, 245, 0.3)
+  }
+
+  60% {
+    -webkit-transform: scaleX(0.9);
+    transform: scaleX(0.9);
+  }
+
+  100% {
+    -webkit-transform: scaleX(0.9);
+    transform: scaleX(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 4px -20px 10px rgba(245, 245, 245, 0.7);
+  }
+
+  25% {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    box-shadow: 4px -20px 50px rgba(245, 245, 245, 0.3);
+  }
+
+  60% {
+    -webkit-transform: scaleX(0.9);
+    -ms-transform: scaleX(0.9);
+    transform: scaleX(0.9);
+  }
+
+  100% {
+    -webkit-transform: scaleX(0.9);
+    -ms-transform: scaleX(0.9);
+    transform: scaleX(0.9);
+  }
+}
+
+
+.banner:hover {
+  animation-play-state: paused;
 }
 
 .div-body {
@@ -104,6 +170,10 @@ h1 {
   width: 100%;
   text-align: end;
   background-color: black;
+  border-top: 1rem inset rgba(0, 0, 0, 1);
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  box-shadow: 0px 7px inset rgba(0, 0, 0, 1);
 }
 
 .article1 > h1 {
