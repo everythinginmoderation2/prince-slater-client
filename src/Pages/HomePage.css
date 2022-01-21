@@ -231,7 +231,7 @@ h1 {
 
 /*-------IN PROGRESS and media queries-----------------------------------------------------------*/
 
-
+/*Small Widths*/
 @media only screen and (max-width: 768px) {
   .section-header-padding-message {
     position: relative;
@@ -251,9 +251,9 @@ h1 {
     height: 80vh;
     width: 100%;
     background-image: url(/src/Images/arms_back.jpeg);
-    background-position: top 30% right 0%;
+    background-position: top 45% right 50%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 200%;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
@@ -273,3 +273,176 @@ h1 {
     /* text-align: center; */
   }
 }
+
+/*Small widths and large heights (iPad Mini)*/
+@media only screen and (max-width: 768px) and (min-height: 800px){
+  .section-header-padding-message {
+    position: relative;
+    margin-top: 3rem;
+    top: 5rem;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header-padding-message > h1 {
+    font-size: 6rem;
+  }
+  
+  .banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/Images/arms_back.jpeg);
+    background-position: top 45% right 50%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
+    background-color: rgb(214, 206, 231);
+    /* -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-in-out infinite alternate both; */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > h1 {
+    font-size: 6rem;
+    /* text-align: center; */
+  }
+}
+
+/*iPhone SE and Galaxy Fold */
+@media only screen and (max-width: 440px) and (min-height: 400px){
+  .section-header-padding-message {
+    position: relative;
+    margin-top: 18vh;
+    top: 5rem;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header-padding-message > h1 {
+    font-size: 4rem;
+  }
+  
+  .banner {
+    height: 50vh;
+    width: 100%;
+    background-image: url(/src/Images/arms_back.jpeg);
+    background-position: top 45% right 50%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
+    background-color: rgb(214, 206, 231);
+    /* -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-in-out infinite alternate both; */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > h1 {
+    font-size: 6rem;
+    /* text-align: center; */
+  }
+}
+
+/* iPad Air and Surface Pro 7 */
+@media only screen and (max-width: 912px) and (min-height: 1000px){
+  .section-header-padding-message {
+    position: relative;
+    margin-top: 3rem;
+    top: 5rem;
+    left: 10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header-padding-message > h1 {
+    font-size: 6rem;
+  }
+  
+  .banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/Images/arms_back.jpeg);
+    background-position: top 45% right 50%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
+    background-color: rgb(214, 206, 231);
+    /* -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-in-out infinite alternate both; */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > h1 {
+    font-size: 6rem;
+    /* text-align: center; */
+  }
+}
+
+/* Surface Pro 7 */
+@media only screen and (max-width: 912px) and (min-height: 1300px){
+  .section-header-padding-message {
+    position: relative;
+    margin-top: 3rem;
+    top: 5rem;
+    left: 13%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header-padding-message > h1 {
+    font-size: 6rem;
+  }
+  
+  .banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/Images/arms_back.jpeg);
+    background-position: top 45% right 50%;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
+    background-color: rgb(214, 206, 231);
+    /* -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-in-out infinite alternate both; */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > h1 {
+    font-size: 6rem;
+    /* text-align: center; */
+  }
+}
+
