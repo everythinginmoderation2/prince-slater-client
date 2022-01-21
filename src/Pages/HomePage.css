@@ -41,7 +41,6 @@ h1 {
 
 .root {
   color: rgba(251, 252, 204, 0.863);
-  /* background-blend-mode: darken; */
 }
 
 .section-header-padding-message {
@@ -71,20 +70,20 @@ h1 {
     margin: 0;
 }
 
-
+/************** START OF BANNER ********************/
 .banner {
   height: 80vh;
   width: 100%;
-  /* background-image: url(/src/Images/arms_back.jpeg); */
-  background-position: center;
+  background-image: url(/src/Images/arms_back.jpeg);
+  background-position: top 30% right 0%;
   background-repeat: no-repeat;
-  background-size: 800px;
+  background-size: 100%;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
   background-color: rgb(214, 206, 231);
-  -webkit-animation: breathing 5s ease-out infinite normal;
-    animation: breathing 5s ease-in-out infinite alternate both;
+  /* -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-in-out infinite alternate both; */
 }
 
 @-webkit-keyframes breathing {
@@ -144,28 +143,76 @@ h1 {
   animation-play-state: paused;
 }
 
+/**********************************END OF BANNER****************************************/
+
 .div-body {
-  height: 800px;
+  height: 400px;
   width: auto;
-  background-color: aliceblue;
+  background-color: rgba(236, 236, 230, 0.5);
+  margin-bottom: 10%;
 }
 
-.blue {
-  height: 400px;
-  width: 400px;
+.back-top {
+  height: 20%;
+  width: 100%;
   background-color: rgba(10, 6, 6, 0.849);
-  /* position: relative; */
+  box-shadow: 0rem -1rem black, inset 0rem -1rem 1rem 0.5rem black;
+  border-collapse: collapse;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 10%;
 }
 
-.green {
-  background-color: rgba(251, 252, 204, 0.7);
-  height: 400px;
-  width: 400px;
+.back-bottom {
+  /* background-color: rgba(251, 252, 204, 0.7); */
+  height: 80%;
+  width: 100%;
+  border-bottom: 1rem outset rgba(0, 0, 0, 1);
 }
 
-.article1{
+.front {
+  height: 30%;
+  width: 80%;
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  background-color: black;
+  align-self: center;
+  border-radius: 20%;
+}
+
+.front-left {
+  background-color: black;
+}
+
+.front-right {
+  background-color: black;
+}
+
+
+
+/********************* CROSS-SCREEN SCROLL ************/
+.text-scroll {
+  font-size: 4rem;
+  font-variant: small-caps;
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  /* left: 400px; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: stretch;
+  -webkit-animation: 5s linear 1s infinite running slidein;
+  animation: 10s linear 1s infinite running slidein;
+}
+
+@-webkit-keyframes slidein { from { margin-left: -100%; } to { margin-right: -100%; }  }
+        @keyframes slidein { from { margin-left: -100%; } to { margin-right: -100%; }  }
+
+
+
+/********************** FOOTER *******************/
+
+.footer {
+  position: relative;
   height: 400px;
   width: 100%;
   text-align: end;
@@ -176,7 +223,7 @@ h1 {
   box-shadow: 0px 7px inset rgba(0, 0, 0, 1);
 }
 
-.article1 > h1 {
+.footer > h1 {
   font-size: 10rem;
   text-align: center;
 }
@@ -184,25 +231,45 @@ h1 {
 
 /*-------IN PROGRESS and media queries-----------------------------------------------------------*/
 
-.footer {
-  margin: 0 1rem;
-  color: rgba(251, 252, 204, 0.863);
-  height: 20vh;
-  background: rgba(10, 6, 6, 0.849) !important;
-  /* background-color: rgba(240, 248, 255, 0) !important; */
-  flex: 0 1 auto;
-  border-style: none;
-}
-
 
 @media only screen and (max-width: 768px) {
   .section-header-padding-message {
     position: relative;
-    padding-top: 3rem;
-    top: 2rem;
-    left: 4rem;
-    width: max-content;
-    font-size: 4rem;
+    margin-top: 3rem;
+    top: 5rem;
+    left: 0rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-header-padding-message > h1 {
+    font-size: 6rem;
+  }
   
-  }  
+  .banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url(/src/Images/arms_back.jpeg);
+    background-position: top 30% right 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
+    background-color: rgb(214, 206, 231);
+    /* -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-in-out infinite alternate both; */
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > h1 {
+    font-size: 6rem;
+    /* text-align: center; */
+  }
 }
