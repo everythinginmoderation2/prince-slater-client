@@ -44,10 +44,7 @@ h4 {
   padding: 0 1rem;
 }
 
-a {
-  padding: 0.5rem;
-  text-decoration: none;
-  font-style: normal;
+.right-end--nav > a {
   margin-left: 2rem;
 }
 

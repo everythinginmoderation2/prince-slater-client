@@ -1,6 +1,5 @@
 {
-  "short_name": "ps",
-  "name": "ps",
+  "name": "psweb",
   "icons": [
     {
       "src": "logo512.png",

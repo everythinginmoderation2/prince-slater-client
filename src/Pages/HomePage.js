@@ -7,6 +7,7 @@ import './HPResLayouts/HPiPadMini.css'
 import './HPResLayouts/HPiPhoneSE.css'
 import './HPResLayouts/HPiPadAir.css'
 import './HPResLayouts/HPSurfacePro7.css'
+import './HPResLayouts/HPlandscape.css'
 
 import HomeHeader from '../Components/HomeHeader/HomeHeader'
 import Footer from '../Components/Footer/Footer';

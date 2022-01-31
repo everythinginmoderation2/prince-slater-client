@@ -1,3 +1,10 @@
+a {
+  padding: 0.5rem;
+  text-decoration: none;
+  font-style: normal;
+  margin: 0rem;
+}
+
 .App {
   min-height: 100%;
   border-right: 0.5rem ridge rgba(10, 6, 6, 1);
