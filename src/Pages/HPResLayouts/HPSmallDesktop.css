@@ -17,10 +17,10 @@
     .banner {
       height: 80vh;
       width: 100%;
-      background-image: url(/src/Images/arms_back.jpeg);
+      background-image: url(/src/Images/hand_and_guitar.jpeg);
       background-position: top 45% right 50%;
       background-repeat: no-repeat;
-      background-size: 200%;
+      background-size: cover;
       border-top-left-radius: 100%;
       border-top-right-radius: 100%;
       box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
@@ -28,7 +28,17 @@
       /* -webkit-animation: breathing 5s ease-out infinite normal;
         animation: breathing 5s ease-in-out infinite alternate both; */
     }
-  
+    
+    .amazon {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .soundcloud {
+      width: 100%;
+      height: 500px;
+    }
+
     .footer {
       display: flex;
       justify-content: center;

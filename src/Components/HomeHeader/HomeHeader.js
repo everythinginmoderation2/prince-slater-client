@@ -11,13 +11,13 @@ const HomeHeader = () => {
                     <div className="right-end--nav">
                         <div><Link to="/">Home</Link></div>
                         <div><Link to="/streaming">Streaming</Link></div>
-                        <div><Link to="/gallery">Gallery</Link></div>
+                        <div><Link to="/upcoming">What's next</Link></div>
                         <div><Link to="/partners">Partners</Link></div>
                     </div>
                 </nav>
                 <div className="next-row">
                     <h3>to where curiousity continues to be met by creativity.</h3>
-                    <h4>Status: probably sleeping</h4>
+                    <h4>Status: building</h4>
                 </div>
             </header>
         </div>

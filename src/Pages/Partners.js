@@ -2,7 +2,6 @@ import React from 'react'
 import './HomePage.css'
 import './Partners.css'
 import HomeHeader from '../Components/HomeHeader/HomeHeader'
-import Footer from '../Components/Footer/Footer';
 
 const HomePage = () => {
     return (
@@ -18,9 +17,6 @@ const HomePage = () => {
                     <img src="/Images/arms_back.jpeg" alt="" />
                 </div>
             </section>
-                <div className='div-footer'>
-                    <Footer className='footer' />
-                </div>
         </div>
     )
 }

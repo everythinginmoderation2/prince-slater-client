@@ -2,7 +2,7 @@ import './App.css';
 import { ThemeProvider, createTheme } from '@material-ui/core/styles';
 import HomePage from './Pages/HomePage';
 import Streaming from './Pages/Streaming';
-import Gallery from './Pages/Gallery';
+import Upcoming from './Pages/Upcoming';
 import Partners from './Pages/Partners';
 
 import { Routes, Route } from "react-router-dom";
@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<HomePage />} />
            <Route path='/streaming' element={<Streaming />} />
-           <Route path='/gallery' element={<Gallery />} />
+           <Route path='/upcoming' element={<Upcoming />} />
           <Route path='/partners' element={<Partners />} />
         </Routes>
       </div>

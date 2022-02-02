@@ -12,6 +12,8 @@ h1 {
 
 .root {
   color: rgba(251, 252, 204, 0.863);
+  width: 90vw;
+  margin: auto;
 }
 
 .section-header-padding-message {
@@ -30,88 +32,55 @@ h1 {
 .div-navbar {
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   width: 100%;
   z-index: 1000;
 }
 
 .section-body {
-    padding-top: 23%;
-    position: relative;
-    margin: 0;
+  padding-top: 15%;
+  position: relative;
+  margin: 0;
+  margin-bottom: 2rem;
+  z-index: 1;
 }
 
 /************** START OF BANNER ********************/
-.banner {
-  height: 80vh;
+.bannerHP {
+  display: flex;
+  flex-flow: column wrap-reverse;
+  justify-content: center;
+  align-items: stretch;
+  justify-items: stretch;
+  align-content: stretch;
+  height: auto;
   width: 100%;
-  background-image: url(/src/Images/arms_back.jpeg);
-  background-position: top 30% right 0%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
+  background-color: black;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
   box-shadow: 4px -20px 20px rgba(245, 245, 245, 0.8);
-  background-color: rgb(214, 206, 231);
-  /* -webkit-animation: breathing 5s ease-out infinite normal;
-    animation: breathing 5s ease-in-out infinite alternate both; */
 }
 
-@-webkit-keyframes breathing {
-  0% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    box-shadow: 4px -20px 10px rgba(245, 245, 245, 0.7);
-  }
-
-  25% {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-    box-shadow: 4px -20px 50px rgba(245, 245, 245, 0.3)
-  }
-
-  60% {
-    -webkit-transform: scaleX(0.9);
-    transform: scaleX(0.9);
-  }
-
-  100% {
-    -webkit-transform: scaleX(0.9);
-    transform: scaleX(0.9);
-  }
+.services-table {
+  text-align: center;
+  width: 50%;
 }
 
-@keyframes breathing {
-  0% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    box-shadow: 4px -20px 10px rgba(245, 245, 245, 0.7);
-  }
-
-  25% {
-    -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-    box-shadow: 4px -20px 50px rgba(245, 245, 245, 0.3);
-  }
-
-  60% {
-    -webkit-transform: scaleX(0.9);
-    -ms-transform: scaleX(0.9);
-    transform: scaleX(0.9);
-  }
-
-  100% {
-    -webkit-transform: scaleX(0.9);
-    -ms-transform: scaleX(0.9);
-    transform: scaleX(0.9);
-  }
+.instructor-description {
+  margin: 2rem 1rem;
+  width: 50%;
 }
 
+@media screen and (max-width: 880px) {
+  .services-table {
+    overflow-x: scroll;
+    width: 100%;
+  }
 
-.banner:hover {
-  animation-play-state: paused;
+  .instructor-description {
+    
+    width: fit-content;
+  }
 }
 
 /**********************************END OF BANNER****************************************/
@@ -155,23 +124,6 @@ h1 {
   align-items: stretch;
 }
 
-.front-left {
-  background-color: white;
-  height: 95%;
-  width: 50%;
-}
-
-.front-right {
-  background-color: black;
-  width: 50%;
-}
-
-.front-right:hover {
-  z-index:100;
-}
-
-
-
 /********************* CROSS-SCREEN SCROLL ************/
 .text-scroll {
   font-size: 4rem;
@@ -180,16 +132,28 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: stretch;
   -webkit-animation: 5s linear 1s infinite running slidein;
   animation: 10s linear 1s infinite running slidein;
 }
 
-@-webkit-keyframes slidein { from { margin-left: -100%; } to { margin-right: -100%; }  }
-        @keyframes slidein { from { margin-left: -100%; } to { margin-right: -100%; }  }
-
-
+@-webkit-keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-right: -100%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-right: -100%;
+  }
+}
 
 /********************** FOOTER *******************/
 
