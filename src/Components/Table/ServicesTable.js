@@ -16,7 +16,9 @@ const ServicesTable = () => {
                 <td><p>This is a description. Possibly, a description that gets
                     longer and longer for the sole purpose of testing the maximum
                     amount of characters necessary for a total breaking point.</p></td>
-                <button className="booking-list-button">Schedule Now</button>
+                <button className="booking-list-button"><a href="https://calendly.com/ps--39/singer-songwriter-training-sessions"
+                        target="_blank"
+                        rel="noreferrer">Schedule Now</a></button>
             </tr>
             <tr className="row">
                 <th scope="row"><h1 className="row-title">Performance</h1></th>
