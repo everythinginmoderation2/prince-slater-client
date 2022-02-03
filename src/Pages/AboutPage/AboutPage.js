@@ -44,12 +44,30 @@ const AboutPage = () => {
                 <br />
                 <h1>Wait. So, isn't this all a little...</h1>
                 <p>
-                    <em>Yes, Alanis, it is a little too ironic.</em>Yah, I could've paid someone to build it. 
-                    I didn't though. While, during the most unsure of times, usually approaching sorts of 
-                    breakthroughs perspective shifts, or teaching moments, I gained a clear projection of
-                    what I'd be capable of if I worked for it.
+                    <em>Yes, Alanis, it is a little too ironic.</em>
+                    My website is currently displaying room for improvement. And when won't it?
+                    Yah, I could've paid someone to build it.
+                    I didn't though. While, during the most unsure of times, usually approaching sorts of
+                    breakthroughs, perspective shifts, or teaching moments, I would wonder what would have happened
+                    if I only stood on my strengths at those particular times of my life.
+                    I'm quite sure I'd have been fine or even successful. We'll never know. I do know that I don't
+                    feel the need to guess any longer. In fact, I know much more now.
                     <br />
                     <p>Had I paid for it, I wouldn't have gotten such a priceless return.</p>
+                </p>
+                <br />
+                <h1>Oh, the purpose...that's right!</h1>
+                <p>There is, of course, more. My youthful, long-winded approach to musicianship
+                    (and any accompanying professionalism) clearly suggests that my story only begins here.
+                    I mean, as I literally continue, I anticipate helping others grow via both the media
+                    shared through this medium and my words, in plain speech. It's all based off of 
+                    experience, but I can't do this alone. My perspective is only one. 
+                </p>
+                <br/>
+                <p>
+                    And this...is also why this first virtual home was built, deployed and publicized. After years
+                    of working alone, you bet I'm excited to share my story or just listen and grow alongside
+                    others in both the virtual and the real world.
                 </p>
             </body>
             <footer>
