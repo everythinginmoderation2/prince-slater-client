@@ -23,16 +23,17 @@ const AboutPage = () => {
                     We were missing this thing though. Wix and other site-builders were just debuting, but we
                     had none. Neither paid, self-made or even delayed. It was clear that my intentions were
                     a bit premature. My heart was in the right place. I understood that we only had our
-                    'backyard acoustic' shabby, video and audio recordings. Often, performances would end
-                    with people asking for a website or audio recordings. Which made it easier to care less
-                    about the quality of our material and instead urge to get us on the map.
+                    'backyard acoustic', rookie video and audio recordings. Often though, performances would end
+                    with people asking for a website or audio recordings. This made it even easier to care less
+                    about the quality of our content and instead urge to get us on the map.
                 </p>
                 <br />
                 <p>
                     With faith and patience, I would eventually make it happen. I had to learn
                     to play an instrument first; grow as a soloist; reach humbling lengths as a musician
                     that helped me curate realistic expectations and a quite, stretchy timeline.
-                    I did mention that I have been patient, right?
+                    I did mention that I have been patient, right? I'll continue to be while I anticipate
+                    my first official studio EP or album. Maybe a song or two with just me and my guitar...
                 </p>
                 <br />
                 <p>
@@ -44,13 +45,12 @@ const AboutPage = () => {
                 <br />
                 <h1>Wait. So, isn't this all a little...</h1>
                 <p>
-                    <em>Yes, Alanis, it is a little too ironic.</em>
-                    My website is currently displaying room for improvement. And when won't it?
-                    Yah, I could've paid someone to build it.
-                    I didn't though. While, during the most unsure of times, usually approaching sorts of
+                    <em>Yes, Alanis, it is a little too ironic.</em> My website is currently displaying room for improvement. And when won't it?
+                    Yah, I could've paid someone to build it. Perhaps, while I focused heavily on something else... 
+                    I didn't with this one though. While, during the most unsure of times, usually approaching sorts of
                     breakthroughs, perspective shifts, or teaching moments, I would wonder what would have happened
                     if I only stood on my strengths at those particular times of my life.
-                    I'm quite sure I'd have been fine or even successful. We'll never know. I do know that I don't
+                    I'm quite sure I'd have been fine or even a type of successful. We'll never know. However, I do know that I don't
                     feel the need to guess any longer. In fact, I know much more now.
                     <br />
                     <p>Had I paid for it, I wouldn't have gotten such a priceless return.</p>
@@ -60,8 +60,9 @@ const AboutPage = () => {
                 <p>There is, of course, more. My youthful, long-winded approach to musicianship
                     (and any accompanying professionalism) clearly suggests that my story only begins here.
                     I mean, as I literally continue, I anticipate helping others grow via both the media
-                    shared through this medium and my words, in plain speech. It's all based off of 
-                    experience, but I can't do this alone. My perspective is only one. 
+                    shared through this medium and my words, in plain speech. Which is why I'll be teaching and 
+                    hosting various types of professional sessions. They're best for wellness, growth and development.
+                     It's all based off of experience, but I can't do this alone. My perspective is only one. 
                 </p>
                 <br/>
                 <p>
