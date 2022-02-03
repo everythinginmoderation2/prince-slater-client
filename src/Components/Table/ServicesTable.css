@@ -1,0 +1,27 @@
+table {
+    padding: 2rem;
+}
+
+.row {
+    box-shadow: 0rem 0.1rem 0rem 0rem;
+    border-radius: 5%;
+}
+
+.row-title {
+    
+}
+
+
+
+td {
+    width: 30%;
+    text-align: center;
+}
+
+.booking-list-button {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 90%;
+    text-align: center;
+}
