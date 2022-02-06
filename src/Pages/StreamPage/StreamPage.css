@@ -9,7 +9,6 @@
   height: auto;
   width: 80%;
   margin-left: 10%;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 668px) {
@@ -18,37 +17,5 @@
     height: auto;
     width: auto;
     margin-left: 0;
-    background-color: rgba(0, 0, 0, 0.1);
   }
-}
-
-.logo-image {
-  position: fixed;
-  bottom: 20px;
-  border: 0.15rem outset rgba(5, 2, 2, 0.9);
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  background-position: center;
-  background-image: url(../../Images/logo.png);
-  margin: 1rem;
-}
-
-.logo-image:hover {
-  box-shadow: 1px 1px 2px rgba(255, 0, 0, 1), 0 0 1em rgb(4, 54, 148), 0 0 0.2em;
-}
-
-.book-now-button {
-  background-color: rgb(4, 107, 148);
-  padding: 0.5rem;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  font-variant: small-caps;
-  position: fixed;
-  bottom: 25px;
-  right: 20px;
-}
-
-.booking-button > a {
-  color: white;
 }

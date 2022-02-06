@@ -1,9 +1,14 @@
 import React from 'react';
+import './BookNow.css'
 
 const BookNow = () => {
     return <div>
         {/* Calendly link widget */}
-       
+        <button className="book-now-button">
+            <a href="https://calendly.com/ps--39/singer-songwriter-training-sessions"
+                target="_blank"
+                rel="noreferrer">Book <br /> Now</a>
+        </button>
     </div>;
 };
 

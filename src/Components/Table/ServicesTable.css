@@ -1,27 +1,96 @@
 table {
-    padding: 2rem;
+  padding: 2rem;
 }
 
-.row {
-    box-shadow: 0rem 0.1rem 0rem 0rem;
-    border-radius: 5%;
+tr {
+  text-align: center;
 }
 
-.row-title {
- 
-    
+tr.row {
+  margin-bottom: 3rem;
 }
 
+tr:hover {
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.9);
+}
 
 td {
-    width: 30%;
-    text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+td p {
+  margin: auto;
 }
 
 .booking-list-button {
-    margin-left: 2rem;
-    margin-top: 2rem;
-    padding: 1rem;
-    width: 90%;
-    text-align: center;
+  /* width: 90%;
+  height: 90%; */
+  text-align: center;
+  margin: 1rem;
+}
+
+.image-and-caption-container {
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 10%;
+}
+
+.image-and-caption-container img {
+  max-width: 50%;
+  max-height: 40%;
+  margin: 0.7rem;
+}
+
+@media screen and (min-width: 880px) {
+  tr.row {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-bottom: 1.3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+
+  td {
+    width: 100%;
+    height: 100%;
+  }
+
+  .row-title {
+    position: absolute;
+    width: 100%;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.6);
+  }
+
+  td p {
+    width: auto;
+    margin: 1rem;
+    text-indent: unset;
+  }
+
+  .image-and-caption-container {
+    border-radius: 10%;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+  }
+
+  .image-and-caption-container img {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 880px) {
+  td p {
+    width: 60%;
+  }
+
+  .image-and-caption-container {
+    width: 100%;
+  }
 }

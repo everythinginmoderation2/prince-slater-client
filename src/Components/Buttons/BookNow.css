@@ -1,0 +1,20 @@
+.book-now-button {
+    background-color:rgb(4, 107, 148);
+    padding: 0.5rem;
+    border: 0.2rem outset white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+  }
+
+  .book-now-button > a {
+    color: white;
+  }
+
+  .book-now-button:hover {
+      box-shadow: 1px 1px 2px black, 0 0 0.4em black, 0 0 0.2em;
+      border: 0.7rem initial rgba(5, 2, 2, 0.9);
+  }
