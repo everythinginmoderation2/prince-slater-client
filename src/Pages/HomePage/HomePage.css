@@ -1,13 +1,25 @@
 .header {
-    position: relative;
-    padding-top: 4rem;
-    margin-bottom: 3rem;
+  position: relative;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
 }
 
-.body {
-    position: absolute;
-    height: auto;
-    width: 60%;
-    margin-left: 20%;
+.body-home {
+  width: 80%;
+  min-height: 500px;
+  margin: auto;
+  background-image: url(../../Images/horray.JPG);
+  background-position: unset;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 880px) {
+    .body-home {
+        width: 40%;
+        height: 100vh;
+        margin: auto;
+        background-size: cover;
+        
+    }
+}

@@ -13,8 +13,7 @@ const HomePage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <body className='body'>
-
+            <body className='body-home'>
             </body>
             <footer>
                 <LogoButton />
