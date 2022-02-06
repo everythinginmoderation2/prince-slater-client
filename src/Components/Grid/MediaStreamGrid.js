@@ -9,12 +9,12 @@ const MediaStreamGrid = () => {
     return <div>
         <div class="grid-container">
 
-            <div class="grid-item">
+            <div id="am-descr" class="grid-item">
                 <h4>Flow state is an experimental blend of hip hop and rap tracks, each
                     recorded within one session.
-                    <em>'Friends'</em> is an anthem.
+                    <em>'Friends'</em> is an anthem.&ensp; 
                     <em>'Dusty'</em> is a G-rated Eminem type diss-track aimed at any vet lyricists
-                    eager to judge.
+                    eager to judge.&ensp;
                     <em>'Missed Call'</em> was a nonchalant attempt at some nostalgic vibe.
                     My favorite is <em>'DNA'</em>. It was fun to make and is still fun to listen to.
                 </h4></div>
@@ -22,7 +22,7 @@ const MediaStreamGrid = () => {
 
 
             <div class="grid-item"><Apple /></div>
-            <div class="grid-item">
+            <div id="apple-descr" class="grid-item">
                 <h1>As the title suggests,
                     Flow State II was another casual genre audition.
                     It's relaxing, picking through samples for easy arrangements.
@@ -31,7 +31,7 @@ const MediaStreamGrid = () => {
 
 
             <div class="grid-item"><Soundcloud /></div>
-            <div class="grid-item">
+            <div id="scloud-descr" class="grid-item">
                 <p>
                     This song is a huge sigh in high notes. As the 3-month
                     lock-down was nearing its end, all I wanted was to perform new music
@@ -48,8 +48,8 @@ const MediaStreamGrid = () => {
             thus far have come from a genuine place. Stories were told and growing pains were tended to.
             <br/> 
             <br/>
-            Though, also often improvisational 
-            or impromptu, other material like 'M.A.F.M.W.A.F.V' and 'Settle Down' offer some early adolescent
+            Unlike the improvisational 
+            or impromptu recordings, tracks like 'M.A.F.M.W.A.F.V' and 'Settle Down' offer some early adolescent
             insight on relationships, judgment and self-awareness. 
             <br/>
             <br/>

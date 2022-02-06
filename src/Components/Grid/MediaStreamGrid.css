@@ -14,6 +14,17 @@
     text-align: center;
   } 
 
+  #am-descr {
+    font-size: 1.9rem;
+  }
+
+  #apple-descr {
+    font-size: 1.7rem;
+  }
+#scloud-descr{
+  font-size: 1.7rem;
+}
+
   @media screen and (max-width: 1035px) {
     .grid-container {
       display: flex;
@@ -31,7 +42,7 @@
 
     .grid-item {
       border: unset;
-      padding: 20px;
+      padding: 0;
       font-size: 1.5rem;
       text-align: center;
     } 

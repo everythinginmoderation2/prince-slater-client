@@ -14,3 +14,13 @@
     box-shadow: 1px 1px 2px black, 0 0 0.7em black, 0 0 0.2em ;
     border: 0.7rem initial rgba(5, 2, 2, 0.9);
   }
+
+  .click-below {
+    position: fixed;
+    bottom: 150px;
+    left: 18px;
+    width: 84px;
+    height: 60px;
+    text-align: center;
+    text-shadow: -10px 10px 10px grey;
+  }

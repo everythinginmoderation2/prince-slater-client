@@ -11,7 +11,7 @@ import ServicesTable from '../../Components/Table/ServicesTable'
 const WelcomePage = () => {
     return (
         <div className='root'>
-            <body className='body'>
+            <body className='body-welcome'>
                 <ServicesTable />
             </body>
             <footer>

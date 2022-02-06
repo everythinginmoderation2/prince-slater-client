@@ -10,22 +10,22 @@ import BookNow from '../../Components/Buttons/BookNow';
 const ContactPage = () => {
     return (
         <div className='root'>
-            <header className='header'>
-                <Navbar />
-            </header>
-            <body className='body'>
+            <body className='body-contact'>
                 <div className="contact">
-                <h1>Have any questions?</h1>
-                    <iframe 
-                    className="google"
-                    title="google-form"
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSdIcUlPHFCW6fKcve8_Wr2otDV13ArE9P-0YDpRyxmiMp-_dg/viewform?embedded=true" 
-                    width={800} height={861} frameBorder={0} marginHeight={0} marginWidth={0} style={{overflowY: 'unset'}}>Loading…</iframe>
+                    <h1>Have any questions?</h1>
+                    <div className="iframe-container">
+                        <iframe
+                            className="google"
+                            title="google-form"
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSdIcUlPHFCW6fKcve8_Wr2otDV13ArE9P-0YDpRyxmiMp-_dg/viewform?embedded=true"
+                            width={800} height={861} frameBorder={0} marginHeight={0} marginWidth={0} style={{ overflowY: 'unset' }}>Loading…</iframe>
+                    </div>
+                    <div className="scroll-blocker"></div>
                 </div>
             </body>
             <footer>
                 <LogoButton />
-               <BookNow />
+                <BookNow />
             </footer>
         </div>
     )

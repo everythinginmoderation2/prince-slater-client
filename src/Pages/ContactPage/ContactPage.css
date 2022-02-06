@@ -4,11 +4,12 @@
   margin-bottom: 3rem;
 }
 
-.body {
+.body-contact {
   position: absolute;
   height: auto;
-  width: 80%;
   overflow-x: hidden;
+  font-family: 'Righteous', cursive;
+
 }
 
 .contact {
@@ -24,8 +25,17 @@
   text-align: center;
 }
 
-iframe.google {
-  width: 100%;
+.iframe-container {
+  margin: auto;
+}
+
+.scroll-blocker {
+  position: absolute;
+  bottom: 0%;
+  right: 1px;
+  background-color: white;
+  height: 85%;
+  width: 25%;
 }
 
 p {
@@ -39,5 +49,25 @@ p {
     width: auto;
     margin-left: 0;
     padding: 1rem;
+  }
+
+  .scroll-blocker {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    height: 85%;
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 669px) and (max-width: 1200px){
+  .scroll-blocker {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    height: 85%;
+    width: 11%;
   }
 }

@@ -12,7 +12,7 @@ const StreamPage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <body className='body'>
+            <body className='body-stream'>
              <MediaStreamGrid/>
             </body>
             <footer>

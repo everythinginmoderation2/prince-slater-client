@@ -12,7 +12,7 @@ const AboutPage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <body className='body'>
+            <body className='body-about'>
                 <h1>What's the purpose?</h1>
                 <p>
                     A little over 10 years ago, I was interested in having a website for my band at that time.

@@ -1,13 +1,10 @@
-.header {
-    position: relative;
-    padding-top: 4rem;
-    margin-bottom: 3rem;
-}
-
-.body {
+.body-welcome {
     position: absolute;
     height: auto;
     width: 60%;
     margin-left: 20%;
+    padding-top: 1rem;
+    overflow-y: hidden;
+    font-family: 'Source Code Pro', monospace;
 }
 
