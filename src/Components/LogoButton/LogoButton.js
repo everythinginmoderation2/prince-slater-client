@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const LogoButton = () => {
   return <div>
-      <Link to="/"><div className="logo-image" /></Link>
+      <Link to="/home"><div className="logo-image" /></Link>
   </div>;
 };
 

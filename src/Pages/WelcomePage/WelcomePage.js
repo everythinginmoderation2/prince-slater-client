@@ -1,20 +1,18 @@
 import React from 'react'
-import './HomePage.css'
+import './WelcomePage.css'
 import '../Misc/Scrollbar.css'
 import './Max700.css'
 import LogoButton from '../../Components/LogoButton/LogoButton'
 import BookNow from '../../Components/Buttons/BookNow.js'
 import Navbar from '../../Components/Navbar/Navbar'
+import ServicesTable from '../../Components/Table/ServicesTable'
 
 
-const HomePage = () => {
+const WelcomePage = () => {
     return (
         <div className='root'>
-            <header className='header'>
-                <Navbar />
-            </header>
             <body className='body'>
-
+                <ServicesTable />
             </body>
             <footer>
                 <LogoButton />
@@ -24,5 +22,5 @@ const HomePage = () => {
     )
 }
 
-export default HomePage
+export default WelcomePage
 

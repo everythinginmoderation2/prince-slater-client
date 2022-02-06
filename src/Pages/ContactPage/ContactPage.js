@@ -15,7 +15,7 @@ const ContactPage = () => {
             </header>
             <body className='body'>
                 <div className="contact">
-                <h1>Wish to book an event with me at your venue?</h1>
+                <h1>Have any questions?</h1>
                     <iframe 
                     className="google"
                     title="google-form"

@@ -1,0 +1,13 @@
+.header {
+    position: relative;
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.body {
+    position: absolute;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
+}
+

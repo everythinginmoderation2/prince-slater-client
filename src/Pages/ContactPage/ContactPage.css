@@ -14,7 +14,7 @@
 .contact {
   display: flex;
   flex-flow: row wrap;
-  background-color: azure;
+  /* background-color: azure; */
   font-size: 200%;
 }
 
