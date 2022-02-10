@@ -8,10 +8,11 @@
   width: 80%;
   min-height: 500px;
   margin: auto;
-  background-image: url(../../Images/horray.JPG);
+  background-image: url(../../Images/NotreDame.JPG);
   background-position: unset;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 10%;
 }
 
 @media screen and (min-width: 880px) {
