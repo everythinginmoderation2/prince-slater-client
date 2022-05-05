@@ -9,18 +9,25 @@ import BookNow from '../../Components/Buttons/BookNow';
 
 const ContactPage = () => {
     return (
-        <div className='root'>
-            <body className='body-contact'>
-                <div className="contact">
-                    <h1>Have any questions?</h1>
-                    <div className="iframe-container">
-                        <iframe
-                            className="google"
-                            title="google-form"
-                            src="https://docs.google.com/forms/d/e/1FAIpQLSdIcUlPHFCW6fKcve8_Wr2otDV13ArE9P-0YDpRyxmiMp-_dg/viewform?embedded=true"
-                            width={800} height={861} frameBorder={0} marginHeight={0} marginWidth={0} style={{ overflowY: 'unset' }}>Loading…</iframe>
-                    </div>
-                    <div className="scroll-blocker"></div>
+        <div>
+            <body className='contact'>
+                <h1>Have any questions?</h1>
+                <div className="form">
+                    <form action="/action_page.php" method="get">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" />
+                        <br />
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email" />
+                        <br />
+                        <textarea id="about" name="about"
+                            placeholder='Want to know anything in particular?'
+                        />
+                        <br />
+                        <button className="submit"
+                            type="submit" value="Submit">
+                            Submit</button>
+                    </form>
                 </div>
             </body>
             <footer>
