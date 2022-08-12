@@ -33,8 +33,6 @@
   text-indent: 0rem;
   font-size: 1.7rem;
   position: absolute;
-  /* color: rgb(168, 117, 117); */
-  /* color: rgb(4 107 148); */
   top: 12%;
   left: 1%;
   text-shadow: 1px 0px 2px #200000;
@@ -87,11 +85,10 @@
     text-indent: 0rem;
     font-size: 1.4rem;
     position: absolute;
-    color: rgba(255, 242, 242, 0.247);
-    /* color: rgb(4 107 148); */
+    color: #d9e68f93;
     top: 12%;
     left: 30%;
-    text-shadow: 1px 0px 0px rgb(28, 61, 74);
+    text-shadow: 1px -1px 2px rgb(0, 0, 0);
   }
 
   .description-right {
@@ -102,10 +99,9 @@
     text-indent: 0rem;
     font-size: 1.4rem;
     position: absolute;
-    color: rgba(232, 154, 10, 0.393);
-    /* color: rgb(4 107 148); */
+    color: #854000b9;
     top: 50%;
     left: 23%;
-    text-shadow: 1px 0px 0px rgb(28, 61, 74);
+    text-shadow: 0px -1px 0.5px rgb(219, 135, 39);
   }
 }
