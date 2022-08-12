@@ -78,20 +78,7 @@
 
 @media screen and (max-width: 1200px) {
   .description {
-    align-self: start;
-    text-align: center;
-    width: 40%;
-    max-width: 50%;
-    text-indent: 0rem;
-    font-size: 1.4rem;
-    position: absolute;
-    color: #d9e68f93;
-    top: 12%;
-    left: 30%;
-    text-shadow: 1px -1px 2px rgb(0, 0, 0);
-  }
-
-  .description-right {
+    background: #080807;
     align-self: start;
     text-align: center;
     width: 50%;
@@ -99,9 +86,24 @@
     text-indent: 0rem;
     font-size: 1.4rem;
     position: absolute;
-    color: #854000b9;
+    color: rgb(5 2 2 / 46%);
+    top: 15%;
+    left: 24%;
+    text-shadow: 1px -1px 2px #8fe6d5;
+  }
+
+  .description-right {
+    background: #080807;
+    align-self: start;
+    text-align: center;
+    width: 50%;
+    max-width: 50%;
+    text-indent: 0rem;
+    font-size: 1.4rem;
+    position: absolute;
+    color: rgb(5 2 2 / 60%);
     top: 50%;
-    left: 23%;
-    text-shadow: 0px -1px 0.5px rgb(219, 135, 39);
+    left: 24%;
+    text-shadow: 0px -1px 0.5px rgb(219 135 39);
   }
 }
