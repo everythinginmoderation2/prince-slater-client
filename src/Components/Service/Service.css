@@ -1,0 +1,111 @@
+.service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Righteous;
+  max-width: min-content;
+  margin: auto;
+}
+
+.row-title {
+  font-size: 2.5rem;
+}
+
+.image-and-caption-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-and-caption-container > img {
+  position: relative;
+  z-index: -1;
+  border-radius: 2% 2% 0% 0%;
+}
+
+.description {
+  align-self: start;
+  text-align: end;
+  width: 27%;
+  max-width: 50%;
+  text-indent: 0rem;
+  font-size: 1.7rem;
+  position: absolute;
+  /* color: rgb(168, 117, 117); */
+  /* color: rgb(4 107 148); */
+  top: 12%;
+  left: 1%;
+  text-shadow: 1px 0px 2px #200000;
+}
+
+.description-right {
+  align-self: start;
+  text-align: start;
+  width: 27%;
+  max-width: 50%;
+  text-indent: 0rem;
+  font-size: 1.7rem;
+  position: absolute;
+  color: rgb(4 107 148);
+  top: 12%;
+  right: 1%;
+  text-shadow: 1px 0px 2px rgb(28, 61, 74);
+}
+
+.booking-list-button a {
+  color: whitesmoke;
+  font-family: Righteous;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.booking-list-button {
+  width: 100%;
+  background-color: black;
+  height: 2.5rem;
+  border-radius: 0% 0% 60% 60%;
+}
+
+.booking-list-button a:hover {
+  color: black;
+  transition: color 2s;
+}
+
+.booking-list-button:hover {
+  background-color: white;
+  transition: background-color 2s;
+}
+
+@media screen and (max-width: 1200px) {
+  .description {
+    align-self: start;
+    text-align: center;
+    width: 40%;
+    max-width: 50%;
+    text-indent: 0rem;
+    font-size: 1.4rem;
+    position: absolute;
+    color: rgba(255, 242, 242, 0.247);
+    /* color: rgb(4 107 148); */
+    top: 12%;
+    left: 30%;
+    text-shadow: 1px 0px 0px rgb(28, 61, 74);
+  }
+
+  .description-right {
+    align-self: start;
+    text-align: center;
+    width: 50%;
+    max-width: 50%;
+    text-indent: 0rem;
+    font-size: 1.4rem;
+    position: absolute;
+    color: rgba(232, 154, 10, 0.393);
+    /* color: rgb(4 107 148); */
+    top: 50%;
+    left: 23%;
+    text-shadow: 1px 0px 0px rgb(28, 61, 74);
+  }
+}

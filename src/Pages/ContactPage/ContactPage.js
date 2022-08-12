@@ -12,23 +12,15 @@ const ContactPage = () => {
         <div>
             <body className='contact'>
                 <h1>Have any questions?</h1>
-                <div className="form">
-                    <form action="/action_page.php" method="get">
-                        <label for="name">Name: </label>
-                        <input type="text" id="name" name="name" />
-                        <br />
-                        <label for="email">Email: </label>
-                        <input type="text" id="email" name="email" />
-                        <br />
-                        <textarea id="about" name="about"
-                            placeholder='Want to know anything in particular?'
-                        />
-                        <br />
-                        <button className="submit"
-                            type="submit" value="Submit">
-                            Submit</button>
-                    </form>
-                </div>
+                <br/>
+                <br/>
+                <h2>Phone/Zalo/WhatsApp: +84707396342</h2>
+                <br/>
+                <br/>
+                <h2>Instagram: aneducatedguesser</h2>
+                <br/>
+                <br/>
+                <h2>Email: ps@princeslater.com</h2>
             </body>
             <footer>
                 <LogoButton />

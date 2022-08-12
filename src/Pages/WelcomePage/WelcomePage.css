@@ -1,7 +1,6 @@
 .body-welcome {
-    position: absolute;
     height: auto;
-    margin-top: 5%;
+    margin-top: 1.5%;
     padding-top: 1rem;
     overflow-y: hidden;
     font-family: 'Source Code Pro', monospace;
