@@ -13,7 +13,7 @@ ul {
 }
 
 .links > li > a {
-  color: rgba(0, 0, 0, 0.9);
+  color: #8fe6d5;;
 }
 
 
@@ -24,7 +24,7 @@ li {
 }
 
 li:hover {
-    text-shadow: 1px 1px 2px white, 0 0 1em rgb(4, 54, 148),
+    text-shadow: 1px 10px 4px rgb(251 252 204 / 90%), 0 0 1em rgb(4, 54, 148),
     0 0 0.2em black;
     transform: scale(1.1);
 }

@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-.header {
-  position: relative;
-  padding-top: 4rem;
-  margin-bottom: 3rem;
-}
-
 .body-about {
   position: absolute;
   height: auto;

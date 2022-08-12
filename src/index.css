@@ -28,3 +28,9 @@ li {
 ul {
   padding-inline-start: 0;
 }
+
+.header {
+  position: relative;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}

@@ -8,14 +8,14 @@
     background-position: center;
     background-image: url(../../Images/logo.png);
     margin: 1rem;
+    opacity: 100%;
   }
   
   .logo-image:hover {
-    box-shadow: 1px 1px 2px black, 0 0 0.7em black, 0 0 0.2em ;
-    border: 0.7rem initial rgba(5, 2, 2, 0.9);
+    box-shadow: 1px 1px 2px #8fe6d5, 0 0 0.7em rgb(255, 255, 255), 0 0 0.2em;
   }
 
-  .click-below {
+  .home-page {
     position: fixed;
     bottom: 54px;
     left: 18px;
