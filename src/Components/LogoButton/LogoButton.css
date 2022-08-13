@@ -8,14 +8,17 @@
     background-position: center;
     background-image: url(../../Images/logo.png);
     margin: 1rem;
-    opacity: 100%;
+    opacity: 40%;
   }
   
   .logo-image:hover {
+    opacity: 100%;
     box-shadow: 1px 1px 2px #8fe6d5, 0 0 0.7em rgb(255, 255, 255), 0 0 0.2em;
   }
 
-  .home-page {
+  .home-page-button {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
     position: fixed;
     bottom: 54px;
     left: 18px;
@@ -26,4 +29,8 @@
     z-index: 1;
     color: #8fe6d5;
     font-size: 1.5rem;
+  }
+
+  .home-page-button:hover {
+    
   }

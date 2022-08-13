@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap");
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -6,27 +8,29 @@
 
 ul {
   display: flex;
-  flex-flow: nowrap;
+  flex-flow: wrap;
   justify-content: space-around;
   align-self: auto;
   width: 60%;
 }
 
 .links > li > a {
-  color: #8fe6d5;;
+  color: #8fe6d5;
 }
 
-
 li {
+  font-family: 'Righteous', cursive;
   padding: 1rem 0.5rem 1rem 0rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
+  flex-flow: wrap;
 }
 
 li:hover {
-    text-shadow: 1px 10px 4px rgb(251 252 204 / 90%), 0 0 1em rgb(4, 54, 148),
+  font-family: "Rubik Burned", cursive;
+  text-shadow: 1px 10px 4px rgb(251 252 204 / 90%), 0 0 1em rgb(4, 54, 148),
     0 0 0.2em black;
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 675px) {
@@ -39,7 +43,7 @@ li:hover {
   }
 
   ul.links {
-    flex-flow: wrap;
+    
   }
 
   ul.links > li {
@@ -48,11 +52,10 @@ li:hover {
   }
 
   li:hover {
-    background-color: rgba(58, 49, 49, 0.4);
+    font-family: "Rubik Burned", cursive;
+    /* background-color: rgba(58, 49, 49, 0.4); */
     font-size: 2rem;
-    text-shadow: 1px 1px 2px white, 0 0 1em rgb(4, 54, 148),
-    0 0 0.2em black;
+    text-shadow: 1px 0x 2px white, 0 0 1em rgb(4, 54, 148), 0 0 0.2em black;
     transform: scale(1.1);
   }
 }
-
