@@ -2,7 +2,7 @@ import './App.css';
 import HomePage from '../Pages/HomePage/HomePage';
 import AboutPage from '../Pages/AboutPage/AboutPage';
 import ContactPage from '../Pages/ContactPage/ContactPage';
-import WelcomePage from '../Pages/WelcomePage/WelcomePage';
+import BookingPage from '../Pages/BookingPage/BookingPage';
 import StreamPage from '../Pages/StreamPage/StreamPage';
 import Apple from '../Components/MediaPlayers/Apple/Apple'
 import Amazon from '../Components/MediaPlayers/Amazon/Amazon'
@@ -16,8 +16,8 @@ function App() {
   return (
       <div className="App">
         <Routes>
-          <Route exact path='/' element={<WelcomePage />} />
-          <Route path='/home' element={<HomePage/>} />
+          <Route exact path='/booking' element={<BookingPage />} />
+          <Route path='/' element={<HomePage/>} />
           {/* <Route path='/about' element={<AboutPage />} /> */}
           <Route path='/contact' element={<ContactPage/>}/>
           <Route path='/stream' element={<StreamPage />} />

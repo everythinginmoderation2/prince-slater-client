@@ -2,7 +2,7 @@ import React from 'react'
 import './HomePage.css'
 import '../Misc/Scrollbar.css'
 import './Max700.css'
-import LogoButton from '../../Components/LogoButton/LogoButton'
+import HomeButton from '../../Components/Buttons/HomeButton'
 import BookNow from '../../Components/Buttons/BookNow.js'
 import Navbar from '../../Components/Navbar/Navbar'
 
@@ -16,7 +16,7 @@ const HomePage = () => {
             <body className='body-home'>
             </body>
             <footer>
-                <LogoButton />
+                <HomeButton />
                 <BookNow />
             </footer>
         </div>

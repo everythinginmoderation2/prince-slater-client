@@ -2,7 +2,8 @@ import React from 'react'
 import './StreamPage.css'
 import '../Misc/Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
-
+import HomeButton from '../../Components/Buttons/HomeButton'
+import BookNow from '../../Components/Buttons/BookNow'
 import { Link } from "react-router-dom";
 import MediaStreamGrid from '../../Components/Grid/MediaStreamGrid'
 
@@ -16,11 +17,8 @@ const StreamPage = () => {
              <MediaStreamGrid/>
             </body>
             <footer>
-                <Link to="/"><div className="logo-image" /></Link>
-                <button className="book-now-button">
-                    <a href="https://calendly.com/ps--39/singer-songwriter-training-sessions"
-                        target="_blank"
-                        rel="noreferrer">Book <br /> Now</a></button>
+                <HomeButton/>
+                <BookNow/>
             </footer>
         </div>
     )

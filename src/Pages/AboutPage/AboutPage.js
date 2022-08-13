@@ -2,9 +2,8 @@ import React from 'react'
 import './AboutPage.css'
 import '../Misc/Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
-import LogoButton from '../../Components/LogoButton/LogoButton'
+import HomeButton from '../../Components/Buttons/HomeButton.js'
 import BookNow from '../../Components/Buttons/BookNow'
-import { Link } from "react-router-dom";
 
 const AboutPage = () => {
     return (
@@ -17,7 +16,7 @@ const AboutPage = () => {
                <p></p>
             </body>
             <footer>
-                <LogoButton />
+                <HomeButton />
                 <BookNow />
             </footer>
         </div>
