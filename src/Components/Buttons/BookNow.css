@@ -18,7 +18,9 @@
   /* color: rgb(5, 2, 2); */
   font-size: 1.2rem;
   font-weight: 600;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.954);
+  /* text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.954); */
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px rgb(0, 0, 0);
+
 }
 
 .book-now-button:hover {
@@ -29,6 +31,7 @@
 }
 
 .book-now-button > a:hover {
-  text-shadow: 4px 1px 10px rgb(0, 0, 0);
+  /* text-shadow: 4px 1px 10px rgb(0, 0, 0); */
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px rgb(0, 0, 0);
   color: rgb(245, 245, 223);
 }
