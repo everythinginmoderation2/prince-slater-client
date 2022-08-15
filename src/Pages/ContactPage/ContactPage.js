@@ -4,27 +4,29 @@ import '../Misc/Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import HomeButton from '../../Components/Buttons/HomeButton.js';
 import BookNow from '../../Components/Buttons/BookNow';
-import Socials from '../../Components/Socials/Socials'
+import {socialInfo} from '../../Components/Socials/socialInfo'
+import SocialDisplay from '../../Components/SocialDisplay/SocialDisplay';
 
 const ContactPage = () => {
+
+    const rows = []
+    socialInfo.forEach(
+        function ( { company, username, link, source }) {
+            rows.push(<SocialDisplay key={`${company}`} 
+            company={company} username={username} 
+            source={source} link={link}/>)
+        return
+    })
+
+   
     return (
         <div>
             <header>
                 <Navbar />
             </header>
-            <body className='contact'>
-                <Socials/>
-                {/* <h1>Have any questions?</h1>
-                <br />
-                <br />
-                <h2>Phone/Zalo/WhatsApp: +84707396342</h2>
-                <br />
-                <br />
-                <h2>Instagram: aneducatedguesser</h2>
-                <br />
-                <br />
-                <h2>Email: ps@princeslater.com</h2> */}
-            </body>
+            <div className='contact'>
+               {rows}
+            </div>
             <footer>
                 <HomeButton />
                 <BookNow />
