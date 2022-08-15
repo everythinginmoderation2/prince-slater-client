@@ -1,0 +1,15 @@
+.body-welcome {
+    box-shadow: 0px 10px 10px #8fe6d5;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+    height: auto;
+    /* margin-top: 1.5%; */
+    padding-top: 1rem;
+    overflow-y: hidden;
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media only screen and (min-width: 881px) and (max-width: 1250px){
+    .body-welcome {
+        right: 11%;
+    }
+  }

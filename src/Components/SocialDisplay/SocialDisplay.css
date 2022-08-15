@@ -1,0 +1,36 @@
+.social {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.img-company {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+}
+
+.social-logo {
+    height: 100px;
+    width: 140px;
+    min-height: 100px;
+    min-width: 140px;
+}
+
+.company {
+    color: #fbf4e9a2;
+    padding-right: 3rem;
+    font-family: 'Righteous', cursive;
+    align-self: center;
+    font-size: 1.5rem;
+    text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+}
+
+@media screen and (max-width: 550px) {
+    .social-logo {
+        max-width:80%;
+        height: 10%;
+    }
+}
