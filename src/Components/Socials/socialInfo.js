@@ -2,7 +2,7 @@ export const socialInfo = [
     {
         company: 'facebook',
         username: 'aneducatedguesser',
-        link: 'https://www.facebook.com/PrinceSlaterMakesMusic/',
+        link: "https://www.facebook.com/PrinceSlaterMakesMusic/",
         source: 'Facebook',
     },
     {

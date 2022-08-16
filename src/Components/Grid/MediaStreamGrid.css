@@ -37,7 +37,7 @@
     .grid-container {
       display: flex;
       flex-flow: column wrap;
-      padding: 0px;
+      
     }
 
     .grid-item {
@@ -46,4 +46,15 @@
       font-size: 1.5rem;
       text-align: center;
     } 
+
+    #am-descr {
+      font-size: 1.8rem;
+    }
+  
+    #apple-descr {
+      font-size: 1rem;
+    }
+  #scloud-descr{
+    font-size: 1.3rem;
+  }
   }
