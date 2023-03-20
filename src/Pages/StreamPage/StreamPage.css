@@ -8,11 +8,12 @@
   font-family: 'Righteous', cursive;
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 400px) {
   .body-stream {
     text-shadow: 2px 3px 2px #8fe6d56c;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     position: absolute;
     height: auto;
     width: auto;
