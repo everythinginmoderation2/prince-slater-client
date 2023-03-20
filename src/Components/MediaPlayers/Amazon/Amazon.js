@@ -10,7 +10,7 @@ const Amazon = () => {
                         src="https://music.amazon.com/embed/B07V4WKYT5/?id=TfOEed7X5M&marketplaceId=ATVPDKIKX0DER&musicTerritory=US"
                         height="100%"
                         width="100%"
-                        style={{ border: '1px solid rgba(0, 0, 0, 0.12)', borderRadius: '3%', margin: 0, padding: 0, minHeight:'420px'}} />
+                        style={{ border: '1px solid rgba(0, 0, 0, 0.12)', borderRadius: '3%', margin: 'auto', padding: 0, minHeight:'420px'}} />
   </div>;
 };
 

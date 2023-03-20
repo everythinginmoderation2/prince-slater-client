@@ -5,7 +5,7 @@ import instagram from "../Socials/Instagram.png"
 import youtube from "../Socials/Youtube.png"
 
 
-function SocialDisplay({ company, source, link, username }) {
+function SocialDisplay({ company, source, link}) {
     function choose(source) {
         if (source === 'Facebook') return facebook;
         if (source === 'Instagram') return instagram;

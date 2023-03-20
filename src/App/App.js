@@ -1,6 +1,5 @@
 import './App.css';
 import HomePage from '../Pages/HomePage/HomePage';
-import ContactPage from '../Pages/ContactPage/ContactPage';
 import BookingPage from '../Pages/BookingPage/BookingPage';
 import StreamPage from '../Pages/StreamPage/StreamPage';
 import Apple from '../Components/MediaPlayers/Apple/Apple'
@@ -17,7 +16,6 @@ function App() {
         <Routes>
           <Route exact path='/booking' element={<BookingPage />} />
           <Route path='/' element={<HomePage/>} />
-          <Route path='/contact' element={<ContactPage/>}/>
           <Route path='/stream' element={<StreamPage />} />
           <Route path='/apple' element={<Apple/>} />
           <Route path='/amazon' element={<Amazon/>} />
