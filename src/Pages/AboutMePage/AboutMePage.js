@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMePage.css'
-import '../Misc/Scrollbar.css'
+// import '../Misc/Scrollbar.css'
 import './Max700.css'
 import HomeButton from '../../Components/Buttons/HomeButton'
 import BookNow from '../../Components/Buttons/BookNow.js'
@@ -10,7 +10,7 @@ import AboutMe from '../../Components/AboutMe/AboutMe'
 
 const AboutMePage = () => {
     return (
-        <div className='root'>
+        <div className=''>
             <header className='header'>
                 <Navbar />
             </header>

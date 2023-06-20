@@ -1,0 +1,23 @@
+.booking-list-button a {
+  color: whitesmoke;
+  font-family: Righteous;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.booking-list-button {
+  width: 100%;
+  background-color: black;
+  height: 2.5rem;
+  border-radius: 0% 0% 60% 60%;
+}
+
+.booking-list-button a:hover {
+  color: black;
+  transition: color 2s;
+}
+
+.booking-list-button:hover {
+  background-color: white;
+  transition: background-color 2s;
+}

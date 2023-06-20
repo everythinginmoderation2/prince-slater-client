@@ -16,6 +16,7 @@ ul {
 
 .links > li > a {
   color: #8fe6d5;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
 }
 
 li {

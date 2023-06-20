@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+  .layout {
+    width: min-content;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    position: unset;
+    width: unset;
+    align-self: center;
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 90%;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+  .description-right {
+    position: unset;
+    margin-top: unset;
+    width: unset;
+    align-self: center;
+    text-align: center;
+    max-width: 90%;
+    overflow: hidden;
+    padding: 1rem 0 2rem 0;
+}
+}

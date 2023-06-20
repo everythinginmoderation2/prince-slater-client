@@ -1,39 +1,46 @@
+.about-contact > a {
+  font-size: 2rem;
+  color:antiquewhite;
+  text-shadow: 1px -1px 2px #030303;
+}
 
 .aboutMe {
   text-align: center;
-  /* display: flex; */
-  /* flex-direction: row;
-  align-items: center; */
   font-family: 'Righteous', cursive;
-  max-width: min-content;
+  max-width: max-content;
   margin: auto;
+ margin-bottom: 1rem;
 }
 
 .row-title-about {
+  margin-top: 2rem;
   font-size: 2.5rem;
   color: rgb(251 252 204 / 90%);
+  text-shadow: 1px -1px 2px #030303;
   z-index: -2;
 }
 
 .p-container {
-  margin-top: 0.4rem;
+  padding: 1%;
   display: flex;
   flex-shrink: 1;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about {
-  margin-top: inherit;
-  color: rgb(251 252 204 / 100%);
+  /* color: rgb(251 252 204 / 100%); */
+  color: rgb(0, 0, 0);
   overflow: hidden;
   width: 80%;
   max-width: 80%;
-  text-indent: 0rem;
+  text-indent: 1rem;
   font-size: 1.7rem;
-  position: absolute;
-  text-shadow: 1px -1px 2px #8fe6d5;
+  /* text-shadow: 1px -1px 2px #8fe6d5; */
+  text-shadow: 1px -1px 2px #dcedea;
 }
+
 
 .booking-list-button a {
   color: whitesmoke;

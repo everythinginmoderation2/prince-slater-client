@@ -1,0 +1,60 @@
+.layout {
+  text-align: center;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  max-width: fit-content;
+  margin: auto;
+  color: rgb(251 252 204 / 100%);
+  text-indent: 0rem;
+  /* text-shadow: 1px -1px 2px #8fe6d5; */
+}
+
+.row-title {
+  color: rgb(251 252 204 / 90%);
+  z-index: -2;
+  font-size: 4rem;
+}
+
+.image-and-caption-container {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.1rem inset rgb(251 252 204 / 100%);
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+}
+
+.image-and-caption-container > img {
+  position: relative;
+  z-index: -1;
+  border-radius: 2% 2% 0% 0%;
+}
+
+.description-container {
+  margin-bottom: 2rem;
+}
+
+.description {
+  overflow: hidden;
+  text-align: center;
+  width: 27%;
+  max-width: 80%;
+  position: absolute;
+  top: 12%;
+  left: 1%;
+  font-size: 2.1rem;
+}
+
+.description-right {
+  overflow: hidden;
+  text-align: center;
+  width: 27%;
+  max-width: 80%;
+  position: absolute;
+  top: 12%;
+  right: 1%;
+  font-size: 2rem;
+}

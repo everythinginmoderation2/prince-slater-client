@@ -1,8 +1,9 @@
 .body-about {
   width: 80%;
-  min-height: 500px;
+  background-color: #8fe6d5;
+  height: max-content;
+  min-height: min-content;
   margin: auto;
-  background-repeat: no-repeat;
   border-radius: 10%;
 }
 
