@@ -1,17 +1,17 @@
 import React from 'react'
-import './BookingPage.css'
+import './LessonsPage.css'
 import '../Misc/Scrollbar.css'
-import './Max700.css'
+import '../ReponsiveDesigns/Max700.css'
 import HomeButton from '../../Components/Buttons/HomeButton.js'
 import BookNow from '../../Components/Buttons/BookNow.js'
-import Service from '../../Components/Service/Service'
+import Lessons from '../../Components/Lessons/Lessons.js'
 
 
-const BookingPage = () => {
+const LessonsPage = () => {
     return (
         <div className='root'>
             <body className='body-welcome'>
-               <Service />
+               <Lessons />
             </body>
             <footer>
                 <HomeButton />
@@ -21,5 +21,5 @@ const BookingPage = () => {
     )
 }
 
-export default BookingPage
+export default LessonsPage
 

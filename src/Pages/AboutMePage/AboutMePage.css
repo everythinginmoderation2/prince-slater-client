@@ -1,0 +1,15 @@
+.body-about {
+  width: 80%;
+  min-height: 500px;
+  margin: auto;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 880px) {
+    .body-home {
+        width: 40%;
+        height: 100vh;
+        margin: auto;
+    }
+}

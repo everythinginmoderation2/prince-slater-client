@@ -1,0 +1,61 @@
+
+.aboutMe {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: row;
+  align-items: center; */
+  font-family: 'Righteous', cursive;
+  max-width: min-content;
+  margin: auto;
+}
+
+.row-title-about {
+  font-size: 2.5rem;
+  color: rgb(251 252 204 / 90%);
+  z-index: -2;
+}
+
+.p-container {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about {
+  margin-top: inherit;
+  color: rgb(251 252 204 / 100%);
+  overflow: hidden;
+  width: 80%;
+  max-width: 80%;
+  text-indent: 0rem;
+  font-size: 1.7rem;
+  position: absolute;
+  text-shadow: 1px -1px 2px #8fe6d5;
+}
+
+.booking-list-button a {
+  color: whitesmoke;
+  font-family: Righteous;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 2px black;
+}
+
+.booking-list-button {
+  width: 100%;
+  background-color: black;
+  height: 2.5rem;
+  border-radius: 0% 0% 60% 60%;
+}
+
+.booking-list-button a:hover {
+  color: black;
+  transition: color 2s;
+}
+
+.booking-list-button:hover {
+  background-color: white;
+  transition: background-color 2s;
+}
+
