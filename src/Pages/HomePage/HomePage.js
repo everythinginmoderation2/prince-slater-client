@@ -3,7 +3,7 @@ import './HomePage.css'
 import '../Misc/Scrollbar.css'
 import './Max700.css'
 import HomeButton from '../../Components/Buttons/HomeButton'
-import BookNow from '../../Components/Buttons/BookNow.js'
+import ContactNow from '../../Components/Buttons/ContactNow.js'
 import Navbar from '../../Components/Navbar/Navbar'
 
 
@@ -17,7 +17,7 @@ const HomePage = () => {
             </body>
             <footer>
                 <HomeButton />
-                <BookNow />
+                <ContactNow />
             </footer>
         </div>
     )

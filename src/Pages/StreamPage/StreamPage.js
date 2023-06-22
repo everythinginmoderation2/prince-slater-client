@@ -3,8 +3,8 @@ import './StreamPage.css'
 import '../Misc/Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import HomeButton from '../../Components/Buttons/HomeButton'
-import BookNow from '../../Components/Buttons/BookNow'
-import { Link } from "react-router-dom";
+import ContactNow from '../../Components/Buttons/ContactNow'
+// import { Link } from "react-router-dom";
 import MediaStreamGrid from '../../Components/Grid/MediaStreamGrid'
 
 const StreamPage = () => {
@@ -18,7 +18,7 @@ const StreamPage = () => {
             </body>
             <footer>
                 <HomeButton/>
-                <BookNow/>
+                <ContactNow/>
             </footer>
         </div>
     )

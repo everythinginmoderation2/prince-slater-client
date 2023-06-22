@@ -11,9 +11,9 @@ function Lessons() {
             <div className="image-and-caption-container">
                 <img src={thumbnail} alt="Mr.Slater instructs student on playing a note" />
                 <button className="booking-list-button">
-                    <a href="https://calendly.com/ps--39/learn-a-song"
+                    <a href="https://forms.gle/dfjHnWvY5xTgPdqY9"
                         target="_blank"
-                        rel="noreferrer">Schedule Now</a>
+                        rel="noreferrer">Inquiries or Schedule Now</a>
                 </button>
             </div>
             

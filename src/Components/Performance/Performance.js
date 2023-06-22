@@ -11,7 +11,7 @@ function Performance() {
             <div className="image-and-caption-container">
                 <img id='performances-img' src={thumbnail} alt="darkened performer on stage" />
                 <button className="booking-list-button">
-                    <a href="https://calendly.com/ps--39/learn-a-song"
+                    <a href="https://forms.gle/XwfG2ZxHZec89amX8"
                         target="_blank"
                         rel="noreferrer">Book Now</a>
                 </button>

@@ -1,4 +1,4 @@
-.book-now-button {
+.contact-now-button {
   font-family: 'Righteous', cursive;
   opacity: 80%;
   background-color: #8fe6d5;
@@ -12,7 +12,7 @@
   box-shadow: 1px 1px 2px black, 0 0 0.4em black, 0 0 0.2em;
 }
 
-.book-now-button > a {
+.contact-now-button > a {
   color: rgb(245, 245, 223);
   text-transform: uppercase;
   /* color: rgb(5, 2, 2); */
@@ -23,14 +23,14 @@
 
 }
 
-.book-now-button:hover {
+.contact-now-button:hover {
   opacity: 80%;
   background-color: rgb(0, 0, 0);
   border: 0.2rem solid rgba(173, 171, 171, 0.285);
   box-shadow: 1px -2px 10px rgb(245, 245, 223);;
 }
 
-.book-now-button > a:hover {
+.contact-now-button > a:hover {
   /* text-shadow: 4px 1px 10px rgb(0, 0, 0); */
   text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px rgb(0, 0, 0);
   color: rgb(245, 245, 223);

@@ -3,7 +3,7 @@ import './LessonsPage.css'
 import '../Misc/Scrollbar.css'
 import '../ReponsiveDesigns/Max700.css'
 import HomeButton from '../../Components/Buttons/HomeButton.js'
-import BookNow from '../../Components/Buttons/BookNow.js'
+import ContactNow from '../../Components/Buttons/ContactNow.js'
 import Lessons from '../../Components/Lessons/Lessons.js'
 
 
@@ -15,7 +15,7 @@ const LessonsPage = () => {
             </body>
             <footer>
                 <HomeButton />
-                <BookNow />
+                <ContactNow />
             </footer>
         </div>
     )

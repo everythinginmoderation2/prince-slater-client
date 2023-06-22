@@ -3,12 +3,13 @@ import React from 'react';
 const Apple = () => {
     return <div>
         {/* Apple/iTunes */}
-        <iframe allow="autoplay *; encrypted-media *; fullscreen *"
+        <iframe
+            allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
             title="apple"
-            frameBorder={0} height={450}
-            style={{ width: '100%', maxWidth: '100%', overflow: 'hidden', background: 'transparent' }}
+            frameborder={0} height={450}
+            style={{ width: '100%', maxWidth: '100%', overflow: 'hidden', borderRadius: '10px' }}
             sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-            src="https://embed.music.apple.com/us/album/flow-state-ii-ep/1537304415" />
+            src="https://embed.music.apple.com/us/album/just-the-two-of-us-single/1672299698" />
     </div>;
 };
 
