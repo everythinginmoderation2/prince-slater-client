@@ -7,7 +7,7 @@ import '../layoutMax1200.css'
 function Performance() {
     return (
         <div className="layout">
-            <h1 className="row-title">Performances</h1>
+            <h1 className="row-title">Live Shows</h1>
             <div className="image-and-caption-container">
                 <img id='performances-img' src={thumbnail} alt="darkened performer on stage" />
                 <button className="booking-list-button">

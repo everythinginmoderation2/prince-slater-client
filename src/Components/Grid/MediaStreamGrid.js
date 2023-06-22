@@ -7,22 +7,22 @@ import Spotify from '../MediaPlayers/Spotify/Spotify'
 
 const MediaStreamGrid = () => {
     return <div>
-        <div class="grid-container">
+        <div className="grid-container">
 
             {/* <div id="am-descr" class="grid-item"></div> */}
-            <div class="grid-item"><Amazon /></div>
+            <div className="grid-item"><Amazon /></div>
 
 
-            <div class="grid-item"><Apple /></div>
+            <div className="grid-item"><Apple /></div>
             {/* <div id="apple-descr" class="grid-item"> </div> */}
            
 
 
-            <div class="grid-item"><Soundcloud /></div>
+            <div className="grid-item"><Soundcloud /></div>
             {/* <div id="scloud-descr" class="grid-item"></div> */}
     
             {/* <div class="grid-item"></div> */}
-            <div class="grid-item"><Spotify /></div>
+            <div className="grid-item"><Spotify /></div>
         </div>
     </div>;
 };

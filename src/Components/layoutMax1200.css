@@ -5,6 +5,14 @@
     margin: auto;
   }
 
+
+
+  .image-and-caption-container {
+    /* min-width: max-content; */
+    width: max-content;
+    /* max-width: 300px; */
+  }
+
   .description-container {
     display: flex;
     flex-direction: column;

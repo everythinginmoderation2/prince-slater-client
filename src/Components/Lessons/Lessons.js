@@ -8,12 +8,12 @@ function Lessons() {
     return (
         <div className="layout">
             <h1 className="row-title">Guitar Lessons</h1>
-            <div className="image-and-caption-container">
+            <div id="lessons-img" className="image-and-caption-container">
                 <img src={thumbnail} alt="Mr.Slater instructs student on playing a note" />
                 <button className="booking-list-button">
                     <a href="https://forms.gle/dfjHnWvY5xTgPdqY9"
                         target="_blank"
-                        rel="noreferrer">Inquiries or Schedule Now</a>
+                        rel="noreferrer">Booking Inquiries</a>
                 </button>
             </div>
             

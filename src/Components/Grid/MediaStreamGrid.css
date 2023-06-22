@@ -58,3 +58,9 @@
     font-size: 1.3rem;
   }
   }
+
+  @media only screen and (max-width: 400px) {
+    .grid-container {
+      padding-left: 20%;
+    }
+  }

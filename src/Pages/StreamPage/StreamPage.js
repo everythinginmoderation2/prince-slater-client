@@ -4,7 +4,6 @@ import '../Misc/Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import HomeButton from '../../Components/Buttons/HomeButton'
 import ContactNow from '../../Components/Buttons/ContactNow'
-// import { Link } from "react-router-dom";
 import MediaStreamGrid from '../../Components/Grid/MediaStreamGrid'
 
 const StreamPage = () => {
@@ -13,9 +12,9 @@ const StreamPage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <body className='body-stream'>
+            <main className='body-stream'>
              <MediaStreamGrid/>
-            </body>
+            </main>
             <footer>
                 <HomeButton/>
                 <ContactNow/>

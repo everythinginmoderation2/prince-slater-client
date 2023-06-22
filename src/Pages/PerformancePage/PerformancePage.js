@@ -1,7 +1,6 @@
 import React from 'react'
 import './PerformancePage.css'
 import '../Misc/Scrollbar.css'
-import '../ReponsiveDesigns/Max700.css'
 import HomeButton from '../../Components/Buttons/HomeButton.js'
 import ContactNow from '../../Components/Buttons/ContactNow.js'
 import Performance from '../../Components/Performance/Performance'
@@ -10,9 +9,9 @@ import Performance from '../../Components/Performance/Performance'
 const PerformancePage = () => {
     return (
         <div className='root'>
-            <body className='body-welcome'>
+            <main className='body-welcome'>
                <Performance />
-            </body>
+            </main>
             <footer>
                 <HomeButton />
                 <ContactNow />
