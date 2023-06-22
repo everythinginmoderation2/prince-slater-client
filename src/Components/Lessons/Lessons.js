@@ -1,5 +1,5 @@
 import React from 'react'
-import thumbnail from '../../Images/darkened_black_and_white_of_man_sitting_and_playing_on_stage.png'
+import thumbnail from '../../Images/DSC_9931.jpg'
 import '../schedButton.css'
 import '../layout.css'
 import '../layoutMax1200.css'
@@ -9,7 +9,7 @@ function Lessons() {
         <div className="layout">
             <h1 className="row-title">Guitar Lessons</h1>
             <div className="image-and-caption-container">
-                <img src={thumbnail} alt="darkened performer on stage" />
+                <img src={thumbnail} alt="Mr.Slater instructs student on playing a note" />
                 <button className="booking-list-button">
                     <a href="https://calendly.com/ps--39/learn-a-song"
                         target="_blank"
