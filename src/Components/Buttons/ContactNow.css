@@ -1,6 +1,6 @@
 .contact-now-button {
   font-family: 'Righteous', cursive;
-  opacity: 80%;
+  opacity: 0.8;
   background-color: #8fe6d5;
   padding: 0.5rem;
   border: 0.2rem dashed #8fe6d5;
@@ -24,7 +24,7 @@
 }
 
 .contact-now-button:hover {
-  opacity: 80%;
+  opacity: 0.8;
   background-color: rgb(0, 0, 0);
   border: 0.2rem solid rgba(173, 171, 171, 0.285);
   box-shadow: 1px -2px 10px rgb(245, 245, 223);;

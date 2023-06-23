@@ -13,9 +13,9 @@ const AboutMePage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <main className='body-about'>
+            <div className='body-about'>
                 <AboutMe />
-            </main>
+            </div>
             <footer>
                 <HomeButton />
                 <ContactNow />
