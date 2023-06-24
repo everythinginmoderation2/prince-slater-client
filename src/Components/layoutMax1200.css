@@ -1,14 +1,11 @@
 @media screen and (max-width: 1200px) {
   .layout {
-    width: min-content;
     max-width: 80%;
-    margin: auto;
   }
 
 
 
   .image-and-caption-container {
-    /* min-width: max-content; */
     width: max-content;
     /* max-width: 300px; */
   }
@@ -28,6 +25,7 @@
     max-width: 90%;
     overflow: hidden;
     padding: 2rem 0;
+    font-size: 1rem;
 }
 
   .description-right {
@@ -38,5 +36,6 @@
     max-width: 90%;
     overflow: hidden;
     padding: 1rem 0 2rem 0;
+    font-size: 1rem;
 }
 }

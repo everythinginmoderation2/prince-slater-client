@@ -25,16 +25,23 @@ function Lessons() {
                     <br/>
                     They will gain the confidence to
                     learn or practice independently and at their own pace. No rush though. I'm here with you every
-                    step of the way.</p>
-                <p className="description-right">There are countless resources available to learn from online.
-                    However, some times it is much more convenient to attend live instruction. Being able to ask questions 
+                    step of the way.
+                    <br/>
+                    <br/>
+                    There are many resources available to learn online.
+                    However, some times it is much more convenient to attend live instruction. 
+                    </p>
+                <p className="description-right">Being able to ask questions 
                     and receive immediate feedback is a major plus. And, it can be entertaining. My own educational journey has taught
                     me this and much more! 
                     <br/>
                     <br/>
                     This lifetime in performing
                     arts combined with my more recent experience as a 7-year veteran ESL educator helps me clearly communicate my 
-                    understanding to all skill-levels. Countless hours of ongoing dedication makes me enthusiastic to help
+                    understanding to all skill-levels. 
+                    <br/>
+                    <br/>
+                    Countless hours of ongoing dedication makes me enthusiastic to help
                     my community members use their time efficiently 
                     while embarking on their own musical journey.</p>
             </div>

@@ -1,18 +1,17 @@
 .layout {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  align-items: center;
   font-family: "Righteous", cursive;
-  max-width: fit-content;
   margin: auto;
-  /* color: rgb(251 252 204 / 100%); */
   color: #491B1D;
   text-indent: 0rem;
+    /* color: rgb(251 252 204 / 100%); */
   /* text-shadow: 1px -1px 2px #8fe6d5; */
 }
 
 .row-title {
   color: rgb(251 252 204 / 90%);
-  z-index: -2;
   font-size: 4rem;
   text-shadow: 1px 2px 3px #491B1D, 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
 }
@@ -20,11 +19,10 @@
 .image-and-caption-container {
   margin-top: 1rem;
   display: flex;
-  /* flex-shrink: 1; */
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border-top: 0.1rem inset rgb(251 252 204 / 100%);
+  align-self: center;
+  border-top: 0.2rem outset rgb(251 252 204 / 100%);
   border-top-left-radius: 6%;
   border-top-right-radius: 6%;
   max-width: fit-content;
@@ -33,7 +31,6 @@
 
 .image-and-caption-container > img {
   position: relative;
-  z-index: 0;
   border-radius: 2% 2% 0% 0%;
   max-width: inherit;
   max-height: inherit;
@@ -43,7 +40,7 @@
   position: relative;
   z-index: 0;
   border-radius: 2% 2% 0% 0%;
-  max-width: 540px;
+  max-width: 440px;
   object-fit: cover;
   width: 100%;
   height: 540px;
@@ -58,25 +55,25 @@
 .description {
   overflow: hidden;
   text-align: center;
-  width: 27%;
+  width: 30%;
   max-width: 80%;
   position: absolute;
   top: 12%;
   left: 1%;
-  font-size: 2.1rem;
+  font-size: 1.5vw;
   margin-top: 2rem;
   box-shadow: 0px 10px 10px #8fe6d5;
 }
 
 .description-right {
-  overflow: hidden;
+  overflow-y: hidden;
   text-align: center;
-  width: 27%;
+  width: 30%;
   max-width: 80%;
   position: absolute;
   top: 12%;
   right: 1%;
-  font-size: 2rem;
+  font-size: 1.5vw;
   margin-top: 2rem;
   box-shadow: 0px 10px 10px #8fe6d5;
 }
@@ -85,7 +82,14 @@
   #lessons-img {
     object-fit: cover;
     max-width: 300px;
-    /* width: fit-content; */
+    min-width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  #lessons-img {
+    object-fit: cover;
+    max-width: 200px;
     min-width: fit-content;
   }
 }
