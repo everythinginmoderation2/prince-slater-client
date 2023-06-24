@@ -8,7 +8,7 @@ import MediaStreamGrid from '../../Components/Grid/MediaStreamGrid'
 
 const StreamPage = () => {
     return (
-        <div className='root'>
+        <div>
             <header className='header'>
                 <Navbar />
             </header>

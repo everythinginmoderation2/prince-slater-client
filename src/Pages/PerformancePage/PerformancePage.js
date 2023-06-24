@@ -8,7 +8,7 @@ import Performance from '../../Components/Performance/Performance'
 
 const PerformancePage = () => {
     return (
-        <div className='root'>
+        <div>
             <main id="body" className='body-welcome'>
                <Performance />
             </main>

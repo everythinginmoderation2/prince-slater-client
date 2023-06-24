@@ -8,7 +8,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 
 const HomePage = () => {
     return (
-        <div className='root'>
+        <div>
             <header className='header'>
                 <Navbar />
             </header>

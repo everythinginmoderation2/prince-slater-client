@@ -8,7 +8,7 @@ import Lessons from '../../Components/Lessons/Lessons.js'
 
 const LessonsPage = () => {
     return (
-        <div className='root'>
+        <div>
             <main id="body" className='body-welcome'>
                <Lessons />
             </main>
