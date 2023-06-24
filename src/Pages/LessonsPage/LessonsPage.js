@@ -1,6 +1,6 @@
 import React from 'react'
-import './LessonsPage.css'
-import '../Misc/Scrollbar.css'
+import '../ServicePages.css'
+import '../Scrollbar.css'
 import HomeButton from '../../Components/Buttons/HomeButton.js'
 import ContactNow from '../../Components/Buttons/ContactNow.js'
 import Lessons from '../../Components/Lessons/Lessons.js'
@@ -9,7 +9,7 @@ import Lessons from '../../Components/Lessons/Lessons.js'
 const LessonsPage = () => {
     return (
         <div className='root'>
-            <main className='body-welcome'>
+            <main id="body" className='body-welcome'>
                <Lessons />
             </main>
             <footer>

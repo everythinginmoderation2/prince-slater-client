@@ -5,7 +5,15 @@
   min-height: min-content;
   margin: auto;
   border-radius: 10%;
+  padding-bottom: 6rem;
 }
+
+@media only screen and (max-width: 450px) {
+  .about-container {
+    margin-bottom: 3rem !important;
+  }  
+}
+
 
 @media screen and (min-width: 880px) {
     .body-home {

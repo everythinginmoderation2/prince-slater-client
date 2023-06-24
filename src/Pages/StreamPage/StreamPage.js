@@ -1,6 +1,6 @@
 import React from 'react'
 import './StreamPage.css'
-import '../Misc/Scrollbar.css'
+import '../Scrollbar.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import HomeButton from '../../Components/Buttons/HomeButton'
 import ContactNow from '../../Components/Buttons/ContactNow'
@@ -12,7 +12,7 @@ const StreamPage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <main className='body-stream'>
+            <main id="body" className='body-stream'>
              <MediaStreamGrid/>
             </main>
             <footer>

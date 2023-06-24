@@ -14,7 +14,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media only screen and (max-width: 650px) {
+  #body {
+    padding-bottom: 6rem;
+  }
+}
 
+@media only screen and (min-width: 1280px) {
+  #body {
+    
+  }
+}
 
 a,h1,h2,h3,h4,h5,h6,li,ul {
   margin: 0;

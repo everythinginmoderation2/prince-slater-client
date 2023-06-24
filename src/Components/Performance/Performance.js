@@ -18,14 +18,14 @@ function Performance() {
             </div>
 
             <div className='description-container'>
-                <div className="description">I am available to perform live as an ensemble member or solo artist. I accept bookings for live
-                    shows and prerecorded shows of all sorts. Examples include parties, promotional events, family gatherings and even 
+                <p className="description">I arrange live performances and perform live, as an ensemble member or solo artist. I accept bookings for live
+                    shows and prerecorded shows of all sorts. As a singer, guitarist, or both. Examples include parties, promotional events, family gatherings and even 
                     events for children.
-                </div>
-                <div className="description-right">Upon reasonable request, setlist lengths, genres and arrangements
+                </p>
+                <p className="description-right">Upon reasonable request, set-list lengths, song genres and set-list arrangements
                     may be co-organized, in advance, with the event host(s) to determine what is most suitable for
-                    their patrons (or audiences). Otherwise, advance song suggestions or requests are also accepted.
-                </div>
+                    their patrons (or audience members). Otherwise, song suggestions or requests are also accepted in advance.
+                </p>
             </div>
         </div>
     )

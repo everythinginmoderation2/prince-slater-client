@@ -7,9 +7,9 @@ import '../layoutMax1200.css'
 function Lessons() {
     return (
         <div className="layout">
-            <h1 className="row-title">Guitar Lessons</h1>
+            <h1 className="row-title">Music Lessons</h1>
             <div id="lessons-img" className="image-and-caption-container">
-                <img src={thumbnail} alt="Mr.Slater instructs student on playing a note" />
+                <img src={thumbnail} alt="Mr.Slater instructs a student on how to play a note on an acoustic guitar." />
                 <button className="booking-list-button">
                     <a href="https://forms.gle/dfjHnWvY5xTgPdqY9"
                         target="_blank"
@@ -18,14 +18,25 @@ function Lessons() {
             </div>
             
             <div className='description-container'>
-                <div className="description">Time under tension truly does make a difference. My lessons and prescribed practice
-                    regimens guarantee that you will obtain enough familiarity with music theory and the confidence to
-                    learn independently and at your own pace. No rush though. I'm here with you every
-                    step of the way.</div>
-                <div className="description-right">There are countless resources available to learn from online.
-                    However, it is much more convenient and fun to learn with someone in person. My lifetime in performing
-                    arts, in addition to my more recent experience as a 7-year veteran ESL educator has made music education
-                    even more enjoyable. Did I mention that I am self-taught?</div>
+                <p className="description">Time under tension truly does make a difference. Whether we're learning to play guitar
+                    or we're learning to sing, my lessons and prescribed practice
+                    regimens guarantee that learners will obtain familiarity with key elements of music theory. 
+                    <br/>
+                    <br/>
+                    They will gain the confidence to
+                    learn or practice independently and at their own pace. No rush though. I'm here with you every
+                    step of the way.</p>
+                <p className="description-right">There are countless resources available to learn from online.
+                    However, some times it is much more convenient to attend live instruction. Being able to ask questions 
+                    and receive immediate feedback is a major plus. And, it can be entertaining. My own educational journey has taught
+                    me this and much more! 
+                    <br/>
+                    <br/>
+                    This lifetime in performing
+                    arts combined with my more recent experience as a 7-year veteran ESL educator helps me clearly communicate my 
+                    understanding to all skill-levels. Countless hours of ongoing dedication makes me enthusiastic to help
+                    my community members use their time efficiently 
+                    while embarking on their own musical journey.</p>
             </div>
         </div>
     )

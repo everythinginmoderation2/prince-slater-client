@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.css'
-import '../Misc/Scrollbar.css'
+import '../Scrollbar.css'
 import HomeButton from '../../Components/Buttons/HomeButton'
 import ContactNow from '../../Components/Buttons/ContactNow.js'
 import Navbar from '../../Components/Navbar/Navbar'
@@ -12,7 +12,7 @@ const HomePage = () => {
             <header className='header'>
                 <Navbar />
             </header>
-            <main className='body-home'>
+            <main id="body" className='body-home'>
             </main>
             <footer>
                 <HomeButton />
