@@ -1,0 +1,34 @@
+.caption-overlay {
+    border-radius: inherit;
+    background-color: rgba(28, 30, 29, 0.427);
+    font-style: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.about-web-p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(201, 230, 225);
+    background-color: rgb(61, 59, 59, 30%);
+}
+
+
+.more-info:hover {
+    background-color: black;
+    color: rgb(201, 230, 225);
+}
+
+a {
+    color: unset;
+}
+
+@media only screen and (max-width: 500px) {
+    .caption-overlay {
+        justify-content: center;
+    }
+}

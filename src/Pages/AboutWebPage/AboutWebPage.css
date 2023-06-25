@@ -1,0 +1,35 @@
+.body-web {
+  width: 80%;
+  margin: auto;
+  background-image: url(../../Images/IMG_7372.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 0.2rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(165, 240, 216);
+  box-shadow: -5px -2px 25px 0px rgb(107, 103, 96);
+}
+
+@media only screen and (min-width: 880px) {
+    .body-web {
+        width: 70%;
+        height: 80vh; 
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+  .body-web {
+    border-radius: 20%;
+      width: 60%;
+      height: 70vh; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .body-web {
+    width: 80%;
+  }
+}
+
