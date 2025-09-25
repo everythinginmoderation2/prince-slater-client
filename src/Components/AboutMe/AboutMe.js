@@ -10,15 +10,14 @@ function AboutMe() {
                 <p className="about">A writer, singer, instrumentalist and performer who enjoys writing and arranging 
                 music for himself and others.</p>
 
-                <p className="about">Since my  early practice sessions as a solo performer
-                began in 2016, much of my humble beginnings took off in some of Vietnam's hot-spots, popular cafes, restaurants,
+                <p className="about">I've enjoyed playing in some of Vietnam's hot-spots, popular cafes, restaurants,
                 studios and venues. I started off at open mic nights, then continued at exclusive 
                     gatherings and even organized events like talent showcases and festivals.</p>
                 
                 <p className="about">My experience in the entertainment industry extends further
                 than any guitar or mic cable. A lot of extra-curricular dedication has allowed me to take part in  
-                productions on stage and in front of (or behind) cameras. Whether it be as a model, thespian, musician, emcee,
-                writer, producer, or director, I have been granted such memorable opportunities to meet and work alongside other people.
+                productions on stage and in front of (or behind) cameras. I've had the chance to be a model, actor, musician, emcee,
+                writer, producer, and even director, I have been granted memorable opportunities to meet and work alongside other people.
                 The fun continues! If you read this and consider this a good time to reach out, don't hesitate!</p>
             </div>
         </div>
